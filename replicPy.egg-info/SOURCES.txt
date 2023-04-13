@@ -1,0 +1,15 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+replicPy.egg-info/PKG-INFO
+replicPy.egg-info/SOURCES.txt
+replicPy.egg-info/dependency_links.txt
+replicPy.egg-info/requires.txt
+replicPy.egg-info/top_level.txt
+replicpy/__init__.py
+replicpy/core/__init__.py
+replicpy/core/response.py
+replicpy/core/server.py
+replicpy/core/setups.py
