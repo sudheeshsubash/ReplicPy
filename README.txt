@@ -1,10 +1,14 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-                                         REPLICPY
+                                    REPLICPY
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 <--------------------------REPLICPY CREATED BY SUDHEESH S------------------------------->
+
+ReplicPy is a user-friendly Python framework designed to simplify the development of web applications.
+Inspired by Django, it offers a similar approach but focuses on providing a minimalistic and straightforward syntax.
+With ReplicPy, developers can quickly build web applications without sacrificing simplicity or flexibility.
 
 
 1) installation
