@@ -2,12 +2,12 @@ from setuptools import setup, find_packages
 
 setup(
     name='replicPy',
-    version='0.1.0',
+    version='0.1.1',
     description='A sample Python framework',
     long_description=open('README.txt').read(),
     author='sudheesh s',
     author_email='sudheeshsubhash834@gmail.com',
-    url='https://github.com/yourusername/mylibrary',
+    url='https://github.com/sudheeshsubash/ReplicPy',
     license='MIT',
     packages=find_packages(),
     classifiers=[
