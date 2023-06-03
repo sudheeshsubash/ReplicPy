@@ -1,8 +1,8 @@
 Metadata-Version: 2.1
 Name: replicPy
-Version: 0.1.0
+Version: 0.1.1
 Summary: A sample Python framework
-Home-page: https://github.com/yourusername/mylibrary
+Home-page: https://github.com/sudheeshsubash/ReplicPy
 Author: sudheesh s
 Author-email: sudheeshsubhash834@gmail.com
 License: MIT
@@ -12,6 +12,46 @@ Classifier: Operating System :: Microsoft :: Windows
 Classifier: Topic :: Software Development :: Libraries
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
 License-File: LICENCE.txt
 
-This is a python framework created by sudheesh, its similar to django, but very user friendly
+REPLICPY CREATED BY SUDHEESH S
+
+ReplicPy is a user-friendly Python framework designed to simplify the development of web applications.
+Inspired by Django, it offers a similar approach but focuses on providing a minimalistic and straightforward syntax.
+With ReplicPy, developers can quickly build web applications without sacrificing simplicity or flexibility.
+
+
+Create a "main.py" File and copy past this code
+
+from replicpydemo.core import defaultsetups
+import sys
+
+if __name__ == "__main__":
+    '''
+    Main file
+    '''
+    defaultsetups(sys.argv)
+
+
+
+"urls.py" file
+
+URLLIST = [
+	('',function)
+]
+
+
+
+
+"View.py"
+
+from replicpy.core import Response,JsonResponse
+
+def index(param):
+
+	# do code here!	
+
+	return Response('index.html',context={key:value})
+	or
+	return JsonResponse({key:value})

@@ -1,23 +1,11 @@
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-                                    REPLICPY
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-<--------------------------REPLICPY CREATED BY SUDHEESH S------------------------------->
+REPLICPY CREATED BY SUDHEESH S
 
 ReplicPy is a user-friendly Python framework designed to simplify the development of web applications.
 Inspired by Django, it offers a similar approach but focuses on providing a minimalistic and straightforward syntax.
 With ReplicPy, developers can quickly build web applications without sacrificing simplicity or flexibility.
 
 
-1) installation
-
-pip install replicpy
-
-+--------------------------------------------+
-Create a main.py File and copy past this code
-+--------------------------------------------+
+Create a "main.py" File and copy past this code
 
 from replicpydemo.core import defaultsetups
 import sys
@@ -30,9 +18,7 @@ if __name__ == "__main__":
 
 
 
-+--------------------------------------------+
-urls.py file
-+--------------------------------------------+
+"urls.py" file
 
 URLLIST = [
 	('',function)
@@ -40,9 +26,8 @@ URLLIST = [
 
 
 
-+-------------------------------------------+
-View.py
-+-------------------------------------------+
+
+"View.py"
 
 from replicpy.core import Response,JsonResponse
 
@@ -53,27 +38,3 @@ def index(param):
 	return Response('index.html',context={key:value})
 	or
 	return JsonResponse({key:value})
-
-
-
-+--------------------------------------------+
-Templates -> Create one templates directory
-+--------------------------------------------+
-
-* create html file inside this directory
-
->templates
-	>index.html
-	>about.html
-	>demo.html
-
-
-2) Linkes:-
-
-
-
-
-========================================================
-------------------------END-----------------------------
-========================================================
-	
